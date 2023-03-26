@@ -52,38 +52,43 @@
               </div>
               <div class="mb-3 form-check">
                 <label  class="form-label">Gender</label><br>
-                <input type="radio" name="gender" value="male" class="form-check-input" id="exampleCheck1">
+                <input type="radio" name="gender" value="male" class="form-check-input">
                 <label class="form-check-label" for="exampleCheck1">Male</label><br>
-                <input type="radio" name="gender"value="female"  class="form-check-input" id="exampleCheck1">
+                <input type="radio" name="gender"value="female"  class="form-check-input">
                 <label class="form-check-label" for="exampleCheck1">Female</label>
               </div>
+
               <div class="mb-3">
                 <label class="form-label">phone number</label>
                 <input type="text" class="form-control" id="phonenumber">
               </div>
+
+              <input id="img" name="img" value="image\me.jpg"type="text">
+
               <div class="mb-3">
                 <label class="form-label">grade</label>
                 <input type="text" class="form-control" id="grade">
               </div>
+
+
+              <div class="mb-3">
+              <select id="major"  name="major" > 
+                <option value="Administration">Administration</option>
+                <option value="IT">IT</option>
+                <option value="Science">Science</option>
+                <option value="Art">Art</option>
+                </select>
+                </div>
               <button type="submit" class="btn btn-info">Submit</button>
             </form>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card">
-          <div class=" table-responsive">
-            <table class="table table-info table-striped table-hover table-bordered" id="table">
-              <tr> 
-                <th> Full name</th>
-                <th> Date of birth</th>
-                <th> gender</th>
-                <th> phone number</th>
-                <th> grade</th>
-              </tr>
-             
-            </table>
-          </div>
+        <div class="card" style="min-height: 25rem; width: 18rem;" id="card">
+           
+
+
         </div>
       </div>
     </div>
